@@ -2,7 +2,8 @@
   {
     "listing": "/index.html",
     "items": [
-      "/posts/hi.html"
+      "/posts/로지스틱회귀.html",
+      "/posts/특성공학과규제.html"
     ]
   }
 ]
