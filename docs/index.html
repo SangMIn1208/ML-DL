@@ -78,9 +78,9 @@ ul.task-list li input[type="checkbox"] {
     }
 
     const options = {
-      valueNames: ['listing-date','listing-title','listing-author','listing-image','listing-description','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      valueNames: ['listing-date','listing-title','listing-author',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-title-sort'] }],
       
-      searchColumns: ["listing-date","listing-title","listing-author","listing-image","listing-description","listing-categories"],
+      searchColumns: ["listing-date","listing-title","listing-author"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
@@ -203,74 +203,46 @@ window.Quarto = {
 
 
 
-<div class="quarto-listing quarto-listing-container-default" id="listing-listing">
-<div class="list quarto-listing-default">
-<div class="quarto-post image-right" data-index="0" data-listing-date-sort="1742688000000" data-listing-file-modified-sort="1742727182043" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
-<div class="thumbnail">
-<p><a href="./posts/로지스틱회귀.html" class="no-external"></a></p><a href="./posts/로지스틱회귀.html" class="no-external">
-<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
-</a><p><a href="./posts/로지스틱회귀.html" class="no-external"></a></p>
-</div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./posts/로지스틱회귀.html" class="no-external">로지스틱 회귀</a>
-</h3>
-<div class="listing-subtitle">
-<a href="./posts/로지스틱회귀.html" class="no-external"></a>
-</div>
-<div class="listing-description">
-<a href="./posts/로지스틱회귀.html" class="no-external">
-<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb1-1"><span class="bu">print</span>(<span class="st">'hi'</span>)</span></code></pre></div>
-<div class="cell-output cell-output-stdout">
-<pre><code>hi</code></pre>
-</div>
-</a>
-</div>
-</div>
-<div class="metadata">
-<a href="./posts/로지스틱회귀.html" class="no-external">
-<div class="listing-date">
-Mar 23, 2025
-</div>
-<div class="listing-author">
-이상민
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="1" data-listing-date-sort="1742601600000" data-listing-file-modified-sort="1742727052186" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
-<div class="thumbnail">
-<p><a href="./posts/특성공학과규제.html" class="no-external"></a></p><a href="./posts/특성공학과규제.html" class="no-external">
-<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
-</a><p><a href="./posts/특성공학과규제.html" class="no-external"></a></p>
-</div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./posts/특성공학과규제.html" class="no-external">특성공학과 규제</a>
-</h3>
-<div class="listing-subtitle">
-<a href="./posts/특성공학과규제.html" class="no-external"></a>
-</div>
-<div class="listing-description">
-<a href="./posts/특성공학과규제.html" class="no-external">
-<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb1-1"><span class="im">import</span> pandas <span class="im">as</span> pd</span>
-<span id="cb1-2">df<span class="op">=</span> pd.read_csv(<span class="st">'http://bit.ly/perch_csv'</span>)</span>
-<span id="cb1-3">perch_full <span class="op">=</span> df.to_numpy()</span></code></pre></div>
-</a>
-</div>
-</div>
-<div class="metadata">
-<a href="./posts/특성공학과규제.html" class="no-external">
-<div class="listing-date">
-Mar 22, 2025
-</div>
-<div class="listing-author">
-이상민
-</div>
-</a>
-</div>
-</div>
-</div>
+<div class="quarto-listing quarto-listing-container-table" id="listing-listing">
+<table class="quarto-listing-table table">
+<thead>
+<tr>
+<th>
+Date
+</th>
+<th>
+Title
+</th>
+<th>
+Author
+</th>
+</tr>
+</thead>
+<tbody class="list">
+<tr data-index="0" data-listing-date-sort="1742688000000" data-listing-file-modified-sort="1742966123377" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="1" data-listing-title-sort="로지스틱 회귀" data-listing-filename-sort="2.로지스틱회귀.ipynb">
+<td>
+<span class="listing-date">Mar 23, 2025</span>
+</td>
+<td>
+<a href="./posts/2.로지스틱회귀.html" class="title listing-title">로지스틱 회귀</a>
+</td>
+<td>
+<span class="listing-author">이상민 </span>
+</td>
+</tr>
+<tr data-index="1" data-listing-date-sort="1742601600000" data-listing-file-modified-sort="1742966128201" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="1" data-listing-title-sort="특성공학과 규제" data-listing-filename-sort="1.특성공학과규제.ipynb">
+<td>
+<span class="listing-date">Mar 22, 2025</span>
+</td>
+<td>
+<a href="./posts/1.특성공학과규제.html" class="title listing-title">특성공학과 규제</a>
+</td>
+<td>
+<span class="listing-author">이상민 </span>
+</td>
+</tr>
+</tbody>
+</table>
 <div class="listing-no-matching d-none">
 No matching items
 </div>
