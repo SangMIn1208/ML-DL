@@ -2,7 +2,7 @@
   {
     "objectID": "posts/1.특성공학과규제.html",
     "href": "posts/1.특성공학과규제.html",
-    "title": "특성공학과 규제",
+    "title": "1. 특성공학과 규제",
     "section": "",
     "text": "import pandas as pd\ndf= pd.read_csv('http://bit.ly/perch_csv')\nperch_full = df.to_numpy()\n\n\nperch_full[:10]\n\narray([[ 8.4 ,  2.11,  1.41],\n       [13.7 ,  3.53,  2.  ],\n       [15.  ,  3.82,  2.43],\n       [16.2 ,  4.59,  2.63],\n       [17.4 ,  4.59,  2.94],\n       [18.  ,  5.22,  3.32],\n       [18.7 ,  5.2 ,  3.12],\n       [19.  ,  5.64,  3.05],\n       [19.6 ,  5.14,  3.04],\n       [20.  ,  5.08,  2.77]])"
   },
@@ -18,12 +18,12 @@
     "href": "index.html",
     "title": "ML-DL",
     "section": "",
-    "text": "Date\n\n\nTitle\n\n\nAuthor\n\n\n\n\n\n\nMar 23, 2025\n\n\n로지스틱 회귀\n\n\n이상민 \n\n\n\n\nMar 22, 2025\n\n\n특성공학과 규제\n\n\n이상민 \n\n\n\n\n\nNo matching items"
+    "text": "Date\n\n\nTitle\n\n\nAuthor\n\n\n\n\n\n\nMar 23, 2025\n\n\n2. 로지스틱 회귀\n\n\n이상민 \n\n\n\n\nMar 22, 2025\n\n\n1. 특성공학과 규제\n\n\n이상민 \n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "posts/2.로지스틱회귀.html",
     "href": "posts/2.로지스틱회귀.html",
-    "title": "로지스틱 회귀",
+    "title": "2. 로지스틱 회귀",
     "section": "",
     "text": "print('hi')\n\nhi"
   }
